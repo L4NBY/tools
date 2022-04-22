@@ -3,7 +3,8 @@ import re
 import random
 from time import sleep
 import os
-os.system('''https://api.whatsapp.com/send?phone=557798119294&text=Oi%20vim%20pelo%20o%20seu%20script%20 ''')
+os.system('clear')
+os.system('''am start -a android.intent.action.VIEW -d http://wa.me/+5577998119294  > /dev/null 2>&1''')
 nick = input('DIGITE O SEU NOME OU NICK : ')
 email = input('DIGITE O EMAIL : ')
 error = ['email errado ' , 'email inválido ' ,'tente novamente ' , 'apenas gmail']
