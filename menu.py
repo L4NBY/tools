@@ -1,3 +1,4 @@
+
 from rich.table import Table
 from rich.console import  Console
 from subprocess import Popen, PIPE
@@ -23,6 +24,7 @@ for c in range(0, 1):
             url4 = input('DIGITE A OPÇÃO ').lstrip().lstrip('0').rstrip()
             if url4 == '1':
                 os.system('''echo 'terminal-onclick-url-open=true'> ~/.termux/termux.properties''')
+                os.system('termux-reload-settings')
                 print('LIGADO COM SUCESSO \n')
                 print('''CLICK NA URL 
 
@@ -33,6 +35,7 @@ click >  http://wa.me/+5577998119294
             elif url4 == '2':
                 os.system('''echo 'terminal-onclick-url-open=false'> ~/.termux/termux.properties''')
                 print('DESLIGADO COM SUCESSO \n')
+                os.system('termux-reload-settings')
                 input('ENTRE PARA VOLTAR O MENU')
             else:
                 print('OPÇÃO INVÁLIDA VOLTANDO AO MENU')
