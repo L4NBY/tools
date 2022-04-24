@@ -8,6 +8,7 @@
 pkg install python -y
 pip install requests
 pip install re 
+pip install rich
 pkg install git -y 
 git clone https://github.com/L4NBY/tools/
 cd tools
