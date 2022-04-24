@@ -1,6 +1,6 @@
 # TOOLS PARA INICIANTE 
 
-![](https://github.com/L4NBY/tools/blob/main/20220422_103922.jpg)
+![](https://github.com/L4NBY/tools/blob/main/20220424_105916.jpg)
 
 # AQUI VAI OS COMANDOS COLA TUDO DE UMA VEZ
 
